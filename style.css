@@ -800,7 +800,7 @@ color: #3744b9;
 
 
 
-        @media only screen and (max-width: 768px) {
+        @media(min-width:250px) and (max-width : 900px) {
            
          
           

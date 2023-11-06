@@ -1,7 +1,7 @@
 body {
     margin: 0;
     /* padding-left: 50px; */
-    width: 100%;
+    
 }
 
 #header {
@@ -206,7 +206,7 @@ color: #3744b9;
 
 
 #section3 {
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color:#f3f6ff ;
     transform: translateY(-35px);
@@ -367,7 +367,7 @@ ul {
 
 
 #section5 {
-    width: 100%;
+    width: 100vw;
     height: 600px;
     /* border: 1px solid black; */
     display: flex;
@@ -425,7 +425,7 @@ border-radius: 10px;
 
 
 #section6 {
-    width: 100%;
+    width: 100vw;
     height: auto;
     text-align: center;
     background-color:#f3f6ff ;
@@ -494,7 +494,7 @@ border-radius: 10px;
 
 #section7 {
 
-width: 100%;
+width: 100vw;
 height: auto;
 
 
@@ -551,7 +551,7 @@ padding: 20px;
 
 #section8 {
 
-width: 100%;
+width: 100vw;
 height: auto;
 margin-top: 50px;
 
@@ -587,7 +587,7 @@ margin-top: 50px;
 
 #section9 {
 padding: 0;
-width: 100%;
+width: 100vw;
 height: 600px;
 /* display: grid;
 grid-template-columns: auto auto; */
@@ -699,7 +699,7 @@ font-size: 20px;
 
 
 #section10 {
-width: 100%;
+width: 100vw;
 height: 500px;
 display: grid;
 grid-template-columns: auto auto auto;
@@ -1317,7 +1317,7 @@ flex-direction: column;
         
         
         #section5 {
-            width: 100%;
+            width: 100vw;
             height: auto;
             /* display: flex;
             justify-content: center; */
@@ -1339,14 +1339,15 @@ flex-direction: column;
           padding-left: 40px; */
           padding-bottom: 0;
           /* border: 1px solid black; */
+          position: relative;
         }
         
         #s5-container div {
-            width: 80vw;
+            width: 100%;
             height: fit-content;
            margin-left: auto;
            margin-right: auto;
-           
+           position: relative;
             
            margin-top: 20px;
             /* background-color: #3744b9; */
@@ -1355,18 +1356,19 @@ flex-direction: column;
         }
         
         #s5-container div button {
-           
-           height: fit-content;
+            position: relative;
+           width: 50%;
+           height: auto;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             border: none;
-            transform: translateY(150px);
-           
-            border: 1px solid #4b58ca;
+           /* margin-top: 20px; */
+            /* border: 1px solid #4b58ca; */
             
         }
         
         #s5-container div button p {
+            
             color: #4b58ca;
             font-weight: bold;
         }
@@ -1387,7 +1389,7 @@ flex-direction: column;
 
         
         #section6 {
-            width: 100%;
+            width: 100vw;
             height: auto;
             text-align: center;
             background-color:#f3f6ff ;

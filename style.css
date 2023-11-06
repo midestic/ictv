@@ -1,8 +1,7 @@
 body {
     margin: 0;
     /* padding-left: 50px; */
-    width : 100vw;
-    height : auto;
+    width: 100%;
 }
 
 #header {
@@ -1076,7 +1075,7 @@ flex-direction: column;
             height: auto;
             /* border: 1px solid black; */
             /* vertical-align: top; */
-            transform: translateY(-40px);
+            
         }
         
         #tag-div {
@@ -1344,7 +1343,7 @@ flex-direction: column;
         
         #s5-container div {
             width: 80vw;
-            height: auto;
+            height: fit-content;
            margin-left: auto;
            margin-right: auto;
            

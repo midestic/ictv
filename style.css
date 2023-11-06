@@ -930,7 +930,7 @@ width: 150px;
         
         #menu-div {
             
-            width: 200px;
+            /* width: 200px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -938,7 +938,7 @@ width: 150px;
             position: absolute;
             padding: 20px;
             z-index: 1;
-            background-color: #0d142a;
+            background-color: #0d142a; */
             display: none;
         }
 
@@ -1164,7 +1164,7 @@ flex-direction: column;
             height: auto;
             text-align: center;
        
-/*         border: 1px solid black; */
+        border: 1px solid black;
         /* vertical-align: top; */
         }
 

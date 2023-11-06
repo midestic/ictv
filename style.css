@@ -1355,8 +1355,8 @@ flex-direction: column;
         }
         
         #s5-container div button {
-            position: absolute;
-           padding: 5px;
+           
+           height: fit-content;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             border: none;

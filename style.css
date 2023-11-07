@@ -1348,23 +1348,25 @@ flex-direction: column;
            margin-left: auto;
            margin-right: auto;
            position: relative;
-            
+            border-radius: 20px;
            margin-top: 20px;
+           overflow: hidden;
             /* background-color: #3744b9; */
            /* border: 1px solid black;
            */
         }
         
         #s5-container div button {
-            position: relative;
-           width: 50%;
+            
+           width: 40%;
            height: auto;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             border: none;
            /* margin-top: 20px; */
             /* border: 1px solid #4b58ca; */
-            
+            transform: translateY(-1px);
+            overflow: hidden;
         }
         
         #s5-container div button p {
@@ -1393,7 +1395,7 @@ flex-direction: column;
             height: auto;
             text-align: center;
             background-color:#f3f6ff ;
-            
+            transform: translateY(90px);
             
         }
 

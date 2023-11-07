@@ -986,16 +986,53 @@ width: 150px;
         
         
         #dropdown {
-            width: 50%;
+            width: 40%;
             height: auto;
         z-index: 1;
             border: 1px solid blue;
         position: absolute;
         background-color: #4f5bb8;
         border-bottom-right-radius: 10px;
+        animation: drop 5s ease-in-out  ;
+        border: none;
         /* display: none; */
-   
+        overflow: hidden;
+  box-shadow: 4px 4px #0d142a;
         }
+
+
+
+@keyframes drop {
+    0% {transform: translateY(-60px);
+height: 10px;
+    }
+
+    20% {
+        height:50px ;
+    }
+
+    50% {
+        height: 100px;
+    }
+
+    60% {
+        height: 200px;
+    }
+
+    70% {
+        height: 290px;
+    }
+
+
+
+    100% {
+       height: auto;
+    }
+}
+
+
+
+
         
         #dropdown ul {
         
@@ -1006,6 +1043,22 @@ width: 150px;
         color: #f1f2f8;
              margin-top: 40px;
              font-weight: bold;
+             padding: 2px;
+             /* background-color: #f1f2f8; */
+             border-bottom: 4px solid white;
+             animation: slide 5s ease-in-out;
+             /* border-radius: 20px; */
+          }
+
+
+
+
+          @keyframes slide {
+            0% {
+transform: translateX(200px);
+            }
+
+
           }
         
         

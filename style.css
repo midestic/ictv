@@ -986,7 +986,7 @@ width: 150px;
         
         
         #dropdown {
-            width: 37%;
+            width: 50%;
             height: auto;
         z-index: 1;
             border: 1px solid blue;
@@ -1351,6 +1351,7 @@ flex-direction: column;
             border-radius: 20px;
            margin-top: 20px;
            overflow: hidden;
+           white-space: nowrap;
             /* background-color: #3744b9; */
            /* border: 1px solid black;
            */
@@ -1358,7 +1359,7 @@ flex-direction: column;
         
         #s5-container div button {
             
-           width: 40%;
+           width: 60%;
            height: auto;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
@@ -1438,13 +1439,15 @@ justify-content: space-evenly;
         
         #showcase-container div {
             border-radius: 10px;
-            width: 90%;
+            width: 80%;
             height: fit-content;
             border: 1px solid gray;
             box-shadow: 4px 4px 4px gray;
             margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
+        overflow: hidden;
+       
         }
         
         

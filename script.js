@@ -159,7 +159,7 @@ function portfolio() {
   sms.src = 'sms.avif'
   sms.style.width = 100 + '%'
   sms.style.height = 100 + '%'
-sms.style.borderRadius = '50px'
+
 
   pOne.appendChild(sms)
   sms
@@ -168,7 +168,7 @@ sms.style.borderRadius = '50px'
   whatsapp.src = 'whatsapp.avif'
   whatsapp.style.width = 100 + '%'
   whatsapp.style.height = 100 + '%'
-  whatsapp.style.borderRadius = '50px'
+  
 
   pTwo.appendChild(whatsapp)
   whatsapp
@@ -177,7 +177,7 @@ sms.style.borderRadius = '50px'
   social.src = 'socialmedia.avif'
  social.style.width = 100 + '%'
   social.style.height = 100 + '%'
-  social.style.borderRadius = '50px'
+  
 
   pThree.appendChild(social)
   social
@@ -186,7 +186,7 @@ sms.style.borderRadius = '50px'
   web.src = 'webdesign.avif'
  web.style.width = 100 + '%'
   web.style.height = 100 + '%'
-  web.style.borderRadius = '50px'
+  
 
   pFour.appendChild(web)
   web
@@ -196,7 +196,7 @@ sms.style.borderRadius = '50px'
   cms.src = 'cms.avif'
   cms.style.width = '100%'
  cms.style.height = 100 + '%'
- cms.style.borderRadius = '50px'
+ 
  
 
   pFive.appendChild(cms)
@@ -206,7 +206,7 @@ sms.style.borderRadius = '50px'
   animation.src = 'animation.avif'
   animation.style.width = 100 + '%'
  animation.style.height = '300px'
- animation.style.borderRadius = '50px'
+ 
 
   pSix.appendChild(animation)
   animation

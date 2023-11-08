@@ -986,7 +986,7 @@ width: 150px;
         
         
         #dropdown {
-            width: 40%;
+            width: 100%;
             height: auto;
         z-index: 1;
             border: 1px solid blue;
@@ -1138,6 +1138,9 @@ flex-direction: column;
             height: 500px;
         margin-left: 40px;
         /* border: 1px solid tan; */
+        overflow: hidden;
+        word-wrap: break-word;
+        position: relative;
         
         }
         
@@ -1204,6 +1207,9 @@ flex-direction: column;
             transform: translateY(-35px);
             text-align: center;
             /* padding: 20px; */
+            overflow: hidden;
+            word-wrap: break-word;
+            position: relative;
         }
         
         #aim2 {
@@ -1258,6 +1264,9 @@ flex-direction: column;
        
         border: 1px solid black;
         /* vertical-align: top; */
+        overflow: hidden;
+        word-wrap: break-word;
+        position: relative;
         }
 
         
@@ -1395,38 +1404,45 @@ flex-direction: column;
           padding-bottom: 0;
           /* border: 1px solid black; */
           position: relative;
+          overflow: hidden;
         }
         
         #s5-container div {
             width: 100%;
-            height: fit-content;
+            height: auto;
+            overflow: hidden;
            margin-left: auto;
            margin-right: auto;
-         
-            border-radius: 20px;
+         position: relative;
+            
            margin-top: 20px;
-           overflow: hidden;
-           white-space: nowrap;
+            word-wrap: break-word;
             /* background-color: #3744b9; */
-           /* border: 1px solid black;
-           */
+           /* border: 1px solid black; */
+          
+           border-radius: 30px;
         }
         
         #s5-container div button {
-            
-           width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+           width: 100%;
+           overflow: hidden;
+           word-wrap: break-word;
            height: auto;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
+            /* border-top-right-radius: 10px; */
+            /* border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px; */
             border: none;
            /* margin-top: 20px; */
             /* border: 1px solid #4b58ca; */
-            transform: translateY(-1px);
-            background: transparent;
+          
+           transform: translateY(-2px);
+            position: relative;
         }
         
         #s5-container div button p {
-           
+           position: relative;
             font-size: 10px;
             color: #2233ca;
             font-weight: bold;
@@ -1435,12 +1451,12 @@ flex-direction: column;
         }
         
         
-        #p-1:hover,#p-2:hover,#p-3:hover,#p-4:hover,#p-5:hover,
+        /* #p-1:hover,#p-2:hover,#p-3:hover,#p-4:hover,#p-5:hover,
         #p-6:hover {
         transform: translateY(-10px);
         
         }
-        
+         */
         
 
         
@@ -1455,6 +1471,9 @@ flex-direction: column;
             text-align: center;
             background-color:#f3f6ff ;
             transform: translateY(90px);
+            position: relative;
+            overflow: hidden;
+            word-wrap: break-word;
             
         }
 
@@ -1462,12 +1481,15 @@ flex-direction: column;
             width: 100%;
             display: flex;
             justify-content: center;
+            overflow: hidden;
             /* padding-left: 5px;
             padding-right: 5px; */
+            /* border: 1px solid black; */
+            position: relative;
         }
         
         #section6 p {
-            width: 80%;
+            
             font-size: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -1493,18 +1515,21 @@ justify-content: space-evenly;
             grid-template-rows: auto auto auto; */
            /* border: 1px solid black; */
            /* padding: 40px; */
+           position: relative;
         }
         
         #showcase-container div {
             border-radius: 10px;
-            width: 80%;
-            height: fit-content;
+            width: 90%;
+            height: auto;
             border: 1px solid gray;
             box-shadow: 4px 4px 4px gray;
             margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
         overflow: hidden;
+        word-wrap: break-word;
        
         }
         
@@ -1538,6 +1563,7 @@ justify-content: space-evenly;
             border-right: none;
             border-left: none;
             background-color:#f3f6ff ;
+            position: relative;
         }
         
         
@@ -1573,40 +1599,48 @@ justify-content: space-evenly;
         #say1 {
             padding: 20px;
             width: 80%;
-            height: 400px;
+            height: auto;
             border: 1px solid #858bbc;
             margin-left: auto;
             margin-right: auto;
             border-radius: 30px;
             text-align: center;
-           
+           overflow: hidden;
+           word-wrap: break-word;
+           position: relative;
         }
         
         #say1 p {
             font-size: 20px;
             font-weight: lighter;
             color: gray;
+            position: relative;
         }
         
         #say2 {
             padding: 20px;
             width: 80%;
-            height: 400px;
+            height:auto ;
             border: 1px solid #858bbc;
             margin-left: auto;
             margin-right: auto;
             border-radius: 30px;
             text-align: center;
             margin-top: 90px;
+            overflow: hidden;
+            word-wrap: break-word;
+            position: relative;
         }
         
         #say2 p {
             font-size: 20px;
+            position: relative;
         }
 
         #say1 , #say2 {
             margin-left: auto;
             margin-right: auto;
+            position: relative;
         }
         
         
